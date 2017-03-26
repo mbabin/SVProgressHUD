@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AvailabilityMacros.h>
+#import "SVIndefiniteAnimatedView.h"
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED < 70000
 

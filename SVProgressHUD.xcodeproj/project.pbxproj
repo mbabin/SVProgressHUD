@@ -14,7 +14,7 @@
 		4A9D7DF11AB345DD0039B273 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0220615C857EF0030BBEF /* SVProgressHUD.m */; };
 		4A9D7DF21AB345DD0039B273 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D7DCF1AB345540039B273 /* SVIndefiniteAnimatedView.m */; };
 		4A9D7DF31AB345E10039B273 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F0220415C857EF0030BBEF /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9D7DF41AB345E80039B273 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9D7DCE1AB345540039B273 /* SVIndefiniteAnimatedView.h */; };
+		4A9D7DF41AB345E80039B273 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9D7DCE1AB345540039B273 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A9D7DF71AB34A620039B273 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65F0220D15C858060030BBEF /* SVProgressHUD.bundle */; };
 		65F0220015C857EF0030BBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F021FF15C857EF0030BBEF /* Foundation.framework */; };
 		65F0220515C857EF0030BBEF /* SVProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F0220415C857EF0030BBEF /* SVProgressHUD.h */; };

@@ -7,11 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
+
 @interface SVIndefiniteAnimatedView : UIView
 
-@property (nonatomic, assign) CGFloat strokeThickness;
-@property (nonatomic, assign) CGFloat radius;
-@property (nonatomic, strong) UIColor *strokeColor;
+@property (nonatomic, assign) IBInspectable CGFloat strokeThickness;
+@property (nonatomic, assign) IBInspectable CGFloat radius;
+@property (nonatomic, strong) IBInspectable UIColor *strokeColor;
 
 @end
 
