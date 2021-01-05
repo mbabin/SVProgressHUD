@@ -416,9 +416,9 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _shouldTintImages = YES;
         
 #if SWIFT_PACKAGE
-//        _infoImage = [UIImage imageNamed:@"info" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
-//        _successImage = [UIImage imageNamed:@"success" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
-//        _errorImage = [UIImage imageNamed:@"error" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+        _infoImage = [UIImage imageNamed:@"info" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+        _successImage = [UIImage imageNamed:@"success" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+        _errorImage = [UIImage imageNamed:@"error" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
 #else
         NSBundle *bundle = [NSBundle bundleForClass:[SVProgressHUD class]];
         NSURL *url = [bundle URLForResource:@"SVProgressHUD" withExtension:@"bundle"];
