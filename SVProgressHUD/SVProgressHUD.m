@@ -415,6 +415,11 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _imageViewSize = CGSizeMake(28.0f, 28.0f);
         _shouldTintImages = YES;
         
+#if SWIFT_PACKAGE
+        _infoImage = [UIImage imageNamed:@"info" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+        _successImage = [UIImage imageNamed:@"success" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+        _errorImage = [UIImage imageNamed:@"error" inBundle:SWIFTPM_MODULE_BUNDLE compatibleWithTraitCollection:nil];
+#else
         NSBundle *bundle = [NSBundle bundleForClass:[SVProgressHUD class]];
         NSURL *url = [bundle URLForResource:@"SVProgressHUD" withExtension:@"bundle"];
         NSBundle *imageBundle = [NSBundle bundleWithURL:url];
@@ -422,6 +427,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"info" ofType:@"png"]];
         _successImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"success" ofType:@"png"]];
         _errorImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"error" ofType:@"png"]];
+#endif
 
         _ringThickness = 2.0f;
         _ringRadius = 18.0f;
