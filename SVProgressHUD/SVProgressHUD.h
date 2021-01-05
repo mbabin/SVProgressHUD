@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AvailabilityMacros.h>
-#import "SVIndefiniteAnimatedView.h"
+#import <SVIndefiniteAnimatedView.h>
 
 extern NSString * _Nonnull const SVProgressHUDDidReceiveTouchEventNotification;
 extern NSString * _Nonnull const SVProgressHUDDidTouchDownInsideNotification;
